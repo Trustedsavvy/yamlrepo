@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "example" {
-  name     = "pipelinerg"
+  name     = "yamlrg"
 location = "West US"
     }
