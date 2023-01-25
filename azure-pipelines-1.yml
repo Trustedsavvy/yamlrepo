@@ -8,7 +8,7 @@ trigger:
 stages:
 - stage: Build
   jobs:
-  - job: tf build
+  - job: tf_build
     pool:
       name: Default
     steps:
@@ -25,7 +25,7 @@ stages:
         publishLocation: 'Container'
 - stage: Deploy
   jobs:
-  - job: tf deploy
+  - job: tf_deploy
     pool:
       name: Default
     steps:
