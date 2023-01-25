@@ -25,7 +25,7 @@ stages:
         publishLocation: 'Container'
 - stage: Deploy
   jobs:
-  - job:tf deploy
+  - job: tf deploy
     pool:
       name: Default
     steps:
